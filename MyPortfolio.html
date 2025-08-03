@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Billy's Portfolio</title>
+    <style>
+        * {
+      margin: 0;
+      padding: 30;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Times New Roman', serif;
+      background-color: white;
+      color: #0c0a0a;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    nav ul{
+      background-color: darkslategray;
+      padding: 10px;
+      text-align: center;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      
+    }
+    h1, h2 {
+      color: hsl(180, 3%, 8%);
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #109dfc;
+    }
+    section {
+      margin-bottom: 40px;
+      padding: 30px;
+      background-color: #6445451e;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      font-size: 1.1rem;
+    }
+
+    .split-section {
+      display: flex;
+      gap: 30px;
+    }
+    .split-section .left,
+    .split-section .right {
+      flex: 1;
+      padding:30px;
+      background: dimgray;
+      border-radius: 20px;
+      color: whitesmoke;
+    }
+    ul {
+      list-style-type: circle;
+      padding-left:60px;
+    }
+   section {
+        padding: 45px;
+      }
+    
+    </style>
+</head>
+<header>
+        <h1>Billy Kangethe's Portfolio</h1>
+        <nav> <!-- opted to use bookmarks and id for navigation -->
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#interests">My Interests</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+</header>
+<body>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h1>About Me 🧑</h1>
+    <p> My name is Billy Kangethe, a student at Egerton University pursuing a Bachelors degree in Education.I am also a student at Power Learn Project Africa, studying software development.</p>
+    <p>I am passionate about emerging technologies and their application in addressing real-world problems (especially in education) and imparting  the same knowledge to future learners.</p>
+    <!--I am very excited to start and complete this dev journey!full-stack developer👨‍💻 --> 
+    <div class="split-section">
+      <div class="left" id="interests">
+        <h3>My Interests</h3>
+        <ul>
+          <li>Teaching: impoarting skills to enhance literacy levels</li>
+          <li>Artificial Intelligence: for assisted learning </li>
+          <li>Education Technology: to solve challenges in education using new technologies</li>
+          <li>Listening to music</li>
+          <li>Reading philosophical books</li>
+        </ul>
+      </div>
+      <div class ="right" id="skills">
+      <h3>My Skills💻</h3>
+        <ul>
+          <li>HTML(intermediate level)</li>
+          <li>Data labelling and anntation with CVAT</li>
+          <li>Professional academic writing</li>
+        </ul>   
+    </div> 
+    </div>   
+  </section>
+      <div style="text-align: center;">
+        <img src="_- visual selection.png" alt="Billy skills and interests" style="width:60%; height:110; border-radius: 10px;background-color:darkslategray ;">
+      </div>
+
+  <!-- Educational Background -->
+  <section id="education">
+    <h2>Education🎓</h2>
+    <p>Egerton University Njoro: pursuing an eduaction degree.</p>
+    <p>Power Learn Project Africa: Software Development Course</p>
+    <p><a href="cv.pdf" download>Download My CV (PDF)</a></p>
+  </section>
+
+  <!-- Actively engaged here; Programming Languages-->
+  <section>
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>HTML (beginner level)</li>
+     </ul>
+    <p>Currently learning:</p>
+    <ul>
+      <li>CSS</li>
+      <li>Python</li>
+    </ul>
+    <p>Other languages:</p>
+    <ul>
+      <li>MySQL for database design</li>
+    </ul>
+  </section>
+
+  <!-- styled with font awesome -->
+  <section id="contact">
+    <h2>Contact Details☎️</h2>
+    <ul>
+     <li><i class="fa-solid fa-envelope"></i>
+      Email: <a href="mailto:blykang77@gmail.com"  target="_blank">blykang77@gmail.com</a></li>
+     <li><i class="fa-brands fa-linkedin"></i>
+      LinkedIn: <a href="https://linkedin.com/in/billy-kangethe-145a84315"  target="_blank">Billy Kangethe</a></li>
+      <li><i class="fa-solid fa-phone"></i>
+        Phone Number: <a href="tel:+2547i90458379">+254790458379</a></li>
+     <li><i class="fa-brands fa-github"></i>
+      GitHub: <a href="https://github.com/BillyKe77" target="_blank">BillyKe77</a></li>
+     <li><i class="fa-brands fa-x-twitter"></i>
+      X: <a href="https://https://x.com/bly_wanjiruKe" target="_blank">@bly_wanjiruKe</a></li>
+    </ul>
+
+  </section>
+
+</body>
+</html>
